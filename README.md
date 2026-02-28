@@ -17,7 +17,7 @@ This project implements a two-level hybrid loan approval system that combines a 
 loan-approval-agent/
 │
 ├── notebooks/
-│   └── Loan_Approval_Decision_Agent.ipynb   # Main Colab notebook (Level 1 + Level 2)
+│   └── Loan_Approval_Decision_Agent_–_Hybrid_Architecture.ipynb   # Main Colab notebook (Level 1 + Level 2)
 │
 ├── data/
 │   └── loan_rules.csv                       # Rule definitions (section, rule_description,
@@ -28,8 +28,8 @@ loan-approval-agent/
 │   └── level2_engine.py                     # Level 2: multi-variable + AND logic engine
 │
 ├── docs/
-│   └── architecture.md                      # System design explanation
-│       
+│   ├── report_level_1.md                      # System design explanation
+│   └── report_level_2.md    
 ├── requirements.txt                         # Python dependencies
 └── README.md
 ```
