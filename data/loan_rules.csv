@@ -1,0 +1,21 @@
+section,rule_description,condition,decision,risk_level
+Micro_Loans,Nano loan instant approval,amount <= 1000,APPROVED,Low
+Micro_Loans,Small starter loan,amount <= 2500,APPROVED,Low
+Consumer_Loans,Standard retail loan,amount <= 5000,APPROVED,Low
+Consumer_Loans,Elevated retail loan,amount <= 7500,APPROVED,Low
+Consumer_Loans,Premium retail loan,amount <= 10000,APPROVED,Medium
+Mid_Tier,Basic personal loan,amount <= 15000,MANUAL_REVIEW,Medium
+Mid_Tier,Standard personal loan,amount <= 20000,MANUAL_REVIEW,Medium
+Mid_Tier,Enhanced personal loan,amount <= 25000,MANUAL_REVIEW,Medium
+Mid_Tier,High value personal loan,amount <= 30000,MANUAL_REVIEW,High
+Mid_Tier,Threshold personal loan,amount <= 40000,MANUAL_REVIEW,High
+Large_Loans,Entry business loan,amount <= 50000,MANUAL_REVIEW,High
+Large_Loans,Standard business loan,amount <= 75000,MANUAL_REVIEW,High
+Large_Loans,Major business loan,amount <= 100000,MANUAL_REVIEW,High
+Hard_Limits,Excessive individual risk,amount > 100000,REJECTED,High
+Hard_Limits,Standard cap breach,amount > 150000,REJECTED,High
+Hard_Limits,Policy maximum breach,amount > 200000,REJECTED,High
+Hard_Limits,Institutional limit breach,amount > 250000,REJECTED,High
+Hard_Limits,Extreme exposure limit,amount > 500000,REJECTED,High
+Hard_Limits,Unfunded tier rejection,amount > 750000,REJECTED,High
+Hard_Limits,Total ceiling rejection,amount > 1000000,REJECTED,High
